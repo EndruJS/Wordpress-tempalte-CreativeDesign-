@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+/*font-family: 'Comfortaa', cursive;*/
+/*font-family: 'Roboto Condensed', sans-serif;*/
+body {
+  background-color: #fff;
+  color: #fff;
+  /*!!!!*/
+  min-width: 495px;
+}
+.wrapper {
+  margin: 0;
+  padding: 0;
+}
+div.row.top-header {
+  background-image: url('/images/bg.jpg');
+  min-height: 286px;
+  padding: 30px 15px 45px 15px;
+}
+div.container.top-container {
+  padding: 0 35px;
+}
+.container {
+  /*border: 1px solid #000;*/
+}
+img.blink {
+  position: absolute;
+  top: -50px;
+  margin-left: -60px;
+  z-index: 0;
+}
+.navbar-brand {
+  padding: 15px 0 0 0;
+}
+.navbar-brand > img {
+  position: absolute;
+  width: 18rem;
+  margin: 0;
+  z-index: 9999;
+}
+.header-phone,
+.navbar-text {
+  text-shadow: 1px 1px 2px #012640;
+}
+.header-phone > p {
+  padding: 0;
+  margin: 0;
+  font-size: 2.2rem;
+}
+.adress {
+  text-align: right;
+  font-size: 1.0em;
+  margin: 15px 0 0 0;
+}
+.adress-big {
+  text-align: right;
+  font-size: 1.4rem;
+  margin: 0 15px 0 0;
+}
+div.row > .email-map {
+  margin: 15px 15px 35px 0;
+}
+.navbar-text {
+  padding: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+/*TOP HEADER MENU*/
+div.row.menu-row {
+  /*border: 1px solid red;*/
+}
+.navbar-default {
+  border: none;
+  background: none;
+  margin: 0;
+}
+.navbar {
+  min-height: 35px;
+  margin: 0;
+  color: #fff;
+}
+.navbar-header {
+  margin: 0;
+  padding: 0;
+}
+button.navbar-toggle {
+  margin: 0 0 0 15px;
+  border: 1px solid #fff;
+  color: #fff;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #FF9900;
+}
+button > span.icon-bar {
+  color: #fff;
+  border: 1px solid #fff;
+}
+.navbar-default .navbar-nav > li > a {
+  font-family: 'Roboto Condensed', sans-serif;
+  padding: 6.5px 15px;
+  color: #fff;
+  font-size: 1.6rem;
+  text-shadow: 1px 1px 2px #012640;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:active {
+  color: #fff;
+  text-decoration: underline;
+}
+.navbar-default .container-fluid {
+  padding: 0;
+}
+.collapse.navbar-collapse {
+  border: none;
+}
+#bs-example-navbar-collapse-1 {
+  border: none;
+}
+/*FINDER*/
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form,
+.navbar-form {
+  box-shadow: none;
+}
+.navbar-form {
+  margin: auto 0;
+  padding: 0;
+}
+.form-control {
+  border-radius: 15px;
+  font-style: italic;
+}
+.my-stub {
+  width: 15px;
+  /*Stub right finder*/
+}
+/*CAROUSEL*/
+.container #myCarousel {
+  background-color: #fff;
+  border-radius: 2.5em;
+  border: 2.5rem solid #fff;
+  position: relative;
+  top: -3em;
+  margin-bottom: -1.7em;
+  z-index: 9999;
+  overflow: hidden;
+  box-shadow: 0px 0px 6px #102231;
+}
+.carousel-indicators {
+  background-color: rgba(255, 255, 255, 0.7);
+  margin: auto;
+  width: 100%;
+  height: 35px;
+  left: 0;
+  bottom: 0;
+  padding: 10px 0 0 0;
+}
+.carousel-indicators li {
+  border: 2px solid #fff;
+  background-color: #2C496C;
+  width: 12px;
+  height: 12px;
+  margin: 0 5px;
+  box-shadow: 1px 1px 4px #021224;
+}
+.carousel-indicators li.active {
+  background-color: #2A6FC1;
+  width: 15px;
+  height: 15px;
+  margin: 0 5px;
+}
+#myCarousel > a.carousel-control {
+  background: none;
+}
+a.carousel-control > span {
+  padding: 0.9rem;
+}
+.glyphicon.glyphicon-chevron-left,
+.glyphicon.glyphicon-chevron-right {
+  width: auto;
+  height: auto;
+}
+a > span.glyphicon.glyphicon-chevron-left {
+  left: 2.5rem;
+  border-radius: 30px;
+  background-color: #fff;
+  color: #2C496C;
+  text-shadow: none;
+  box-shadow: 0px 0px 8px #555;
+}
+a > span.glyphicon.glyphicon-chevron-right {
+  right: 2.5rem;
+  border-radius: 30px;
+  background-color: #fff;
+  color: #2C496C;
+  text-shadow: none;
+  box-shadow: 0px 0px 8px #555;
+}
+/*CONTENT AND LEFT MENU*/
+div.row.my-content {
+  color: #000;
+  padding: 0 0 0 0px;
+  margin: 0 0 35px 0;
+}
+div.row.my-content h3 {
+  margin: 0;
+  color: #10499E;
+}
+div.row.my-content ul {
+  margin: 15px 0 0 0;
+  padding: 0;
+}
+div.row.my-content ul > li {
+  list-style: none;
+  margin: 1px;
+  padding: 0;
+  font-size: 1.1em;
+}
+div.row.my-content ul > li a {
+  text-decoration: underline;
+  color: #000;
+  font-size: 1.5rem;
+}
+div.row.my-content ul > li a:hover,
+div.row.my-content ul > li a:focus {
+  text-decoration: none;
+}
+/*FOOTER*/
+div.row.my-footer {
+  background-image: url('/images/bg.jpg');
+  font-family: 'Roboto Condensed', sans-serif;
+  min-height: 200px;
+  color: #fff;
+  text-shadow: 1px 1px 2px #012640;
+}
+div.row.my-footer .container {
+  padding: 15px 40px 15px 45px;
+}
+div.row.my-footer .container div.row > div {
+  padding: 0;
+}
+div.row.my-footer .container div.row > div p {
+  padding: 0;
+  margin: 10px 0;
+  font-size: 1.8rem;
+}
+div.row.my-footer .container div.row > div hr {
+  margin: 2px 0;
+}
+h4.footer-header {
+  color: #fff;
+  text-shadow: 1px 1px 2px #012640;
+  font-weight: normal;
+}
+div.row > div > hr {
+  border-color: #fff;
+  padding: 3px 0;
+}
+div > ul.my-footer {
+  list-style: none;
+  /*-moz-column-count: 2; /* Firefox */
+  /*-webkit-column-count: 2; /* Safari and Chrome */
+  /*column-count: 2;*/
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+ul.my-footer > li {
+  display: inline-block;
+  width: 80px;
+}
+ul.my-footer > li > a {
+  color: #fff;
+  font-size: 1.4rem;
+  text-decoration: underline;
+}
+ul.my-footer > li > a:hover,
+ul.my-footer > li > a:active {
+  text-decoration: none;
+  color: #fff;
+  background: none;
+}
+.icon-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.block-icon-content {
+  display: block;
+  /*border: 1px solid silver;
+	border-radius: 10px;*/
+  margin: 0 15px;
+  width: 100vw;
+  height: auto;
+  float: left;
+  text-align: center;
+  cursor: pointer;
+}
+.content-menu,
+.content-main {
+  margin: 10px 0;
+}
+div.content-menu > ul {
+  padding: 0 5px 0 25px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.content-main {
+  padding: 0 15px;
+}
+.content-main .row {
+  padding: 0 10px;
+}
+div.row.text-center.footer-copy > p {
+  margin: 15px 0 0 0;
+  padding: 20px 0;
+  font-size: 1.2rem;
+}
